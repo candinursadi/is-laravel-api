@@ -211,7 +211,7 @@ HTTP STATUS 200
 }
 ```
 
-### Delete Transaction
+### Get Transaction Summary
 **Request :**
 ```
 GET /api/v1/transactions-summary HTTP/1.1

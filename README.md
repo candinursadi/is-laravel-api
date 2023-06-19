@@ -210,3 +210,34 @@ HTTP STATUS 200
     "message": "Data has been deleted"
 }
 ```
+
+### Delete Transaction
+**Request :**
+```
+GET /api/v1/transactions-summary HTTP/1.1
+Host: localhost:8000
+```
+**Response :**
+``` 
+HTTP STATUS 200
+{
+    "data": [
+        {
+            "_id": "2023-06-19",
+            "count": 17
+        },
+        {
+            "_id": "2023-06-18",
+            "count": 6
+        },
+        {
+            "_id": "2023-06-17",
+            "count": 12
+        },
+        {
+            "_id": "2023-06-16",
+            "count": 10
+        }
+    ]
+}
+```
